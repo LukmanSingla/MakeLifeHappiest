@@ -1,0 +1,237 @@
+/*Disclaimer*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+.disclaimer{
+    text-align:justify;   
+    margin:20px auto;
+    width:55%;
+    padding:35px 20px;
+    box-shadow:2px 2px 8px 0 #000000a1;
+    border-radius:6px;
+    background:linear-gradient(-278deg, #4376ea, #b4ffee);
+    transform:scale(.9);
+    transition:.5s ease;
+}
+.disclaimer:hover{
+    transform:scale(1);
+}
+.disclaimer h1{
+    margin:22px 0;
+}
+.disclaimer h2{
+    margin:16px 0;
+}
+.disclaimer p{
+    
+    margin:16px 0;
+}
+.disclaimer .home{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#000;
+    float:right;
+    font-weight:bolder;
+}
+
+/*Privacy policy*/
+.policy{
+    text-align:justify;   
+    margin:20px auto;
+    width:55%;
+    padding:35px 20px;
+    box-shadow:2px 2px 8px 0 #000000a1;
+    border-radius:6px;
+    background:linear-gradient(-278deg, #4376ea, #b4ffee);
+    transform:scale(.9);
+    transition:.5s ease;
+}
+.policy:hover{
+    transform:scale(1);
+}
+.policy h1{
+    margin:22px 0;
+}
+.policy h2{
+    margin:16px 0;
+}
+.policy p{
+    
+    margin:16px 0;
+}
+.policy .home{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#000;
+    float:right;
+    font-weight:bolder;
+}
+
+
+/*About Us*/
+.about{
+    text-align:justify;   
+    margin:20px auto;
+    width:55%;
+    padding:35px 20px;
+    box-shadow:2px 2px 8px 0 #000000a1;
+    border-radius:6px;
+    background:linear-gradient(-278deg, #4376ea, #b4ffee);
+    transform:scale(.9);
+    transition:.5s ease;
+}
+.about:hover{
+    transform:scale(1);
+}
+.about h1{
+    margin:22px 0;
+}
+.about h2{
+    margin:16px 0;
+}
+.about p{
+    
+    margin:16px 0;
+}
+.about .home{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#000;
+    float:right;
+    font-weight:bolder;
+}
+
+
+
+
+/*Terms and conditions*/
+.terms{
+    text-align:justify;   
+    margin:20px auto;
+    width:55%;
+    padding:35px 20px;
+    box-shadow:2px 2px 8px 0 #000000a1;
+    border-radius:6px;
+    background:linear-gradient(-278deg, #4376ea, #b4ffee);
+    transform:scale(.9);
+    transition:.5s ease;
+}
+.terms:hover{
+    transform:scale(1);
+}
+.terms h1{
+    margin:22px 0;}
+.terms h2{
+    margin:16px 0;
+}
+.terms p{
+    
+    margin:16px 0;
+}
+.terms .home{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#000;
+    float:right;
+    font-weight:bolder;
+}
+.terms ul{
+    padding:10px 30px;
+}
+
+
+
+
+/*Index. php*/
+.index{
+    text-align:center;   
+    margin:20px auto;
+    width:55%;
+    padding:35px 20px;
+    box-shadow:2px 2px 8px 0 #000000a1;
+    border-radius:6px;
+    background:linear-gradient(-278deg, #4376ea, #b4ffee);
+    transform:scale(.9);
+    transition:.5s ease;
+}
+.index h1{
+    margin:22px 0;}
+.index h3, .index h4{
+    margin:16px 0;
+}
+.index p{
+    
+    margin:16px 0;
+}
+.index a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#fff;
+    margin:0 8px;
+    background:#000;
+    padding:6px 8px;
+}
+.index form{
+    width:90%;
+    margin: 0 auto;
+    height:240px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+}
+.index h3 span{
+    color:red;
+}
+.index form input{
+    border:none;
+    outline:none;
+    box-shadow:none;
+    padding: 15px 22px;
+    font-size:18px;
+    width:70%;
+    display:block;
+    border-radius:50px;
+    box-shadow: 0 0 8px 0 #000000a1;
+    position:relative;
+}
+.index label{
+    font-size:18px;
+    text-transform:uppercase;
+    margin: 0 10px 0 0;
+}
+.index form input[type="submit"]{
+    width:180px;
+    display:inline-block;
+    margin:8px auto;
+    border-radius:50px;
+    background:#000;
+    color:#fff;
+    text-transform:uppercase;
+
+}
+.index h4{
+    color:#e40000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+.index form .error{
+    position:absolute;
+}
+.index p{
+    position:absolute;
+    left: 228px;
+    color: red;
+    font-size: 20px;
+}
